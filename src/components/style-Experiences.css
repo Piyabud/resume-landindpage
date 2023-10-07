@@ -1,0 +1,87 @@
+.experiences-page {
+  /* border: 2px solid #ff0000; */
+  /* height: 100vh;*/
+  background-color: var(--gray-color);
+}
+
+.experiences-canvas {
+  /* width: 100%; */
+}
+
+.experiences--header {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; */
+}
+
+.experiences--header h3 {
+  font-size: 18px;
+  color: var(--orange-color);
+  margin-top: 50px;
+}
+
+.experiences--header h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--blue2-color);
+  font-family: monospace;
+  margin-bottom: 50px;
+}
+
+.experiences--info {
+  /* border: 3px solid #000; */
+  /* background-color: aqua; */
+  /* width: 100%;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: start;
+  padding: 10px;
+}
+
+.jobs-detail {
+  /* border: 2px solid #00ff55; */
+  flex: 1.45;
+  padding: 10px 50px;
+  width: 40px;
+}
+
+.jobs-experiences {
+  /* border: 2px solid #ff00ff; */
+  flex: 2;
+}
+
+.jobs-detail > h1 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+li {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  list-style-type: none;
+  border-left: 3px dashed var(--orange-color);
+}
+
+li:hover {
+  scale: 1.1;
+}
+
+.company {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.position {
+  color: var(--blue1-color);
+}
+
+.icon-year {
+  display: inline-block;
+  margin-right: 15px;
+  color: var(--orange-color);
+  font-size: 20px;
+}

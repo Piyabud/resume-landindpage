@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="burger-menu">
+    <style>
+        path {
+        stroke-width: 3;
+        stroke-Linecap: round;
+        }
+    </style>
+    <path fill="#FF9543" stroke="#FF9543" d="M3 8h26M7 16h18M3 24h26" dataName="Burger Menu"></path>
+</svg>

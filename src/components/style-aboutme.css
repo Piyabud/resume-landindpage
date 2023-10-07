@@ -1,0 +1,88 @@
+:root {
+  --bg-image: url("../../public/img/bg-aboutme.jpg");
+}
+
+.about-me-page {
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-image: var(--bg-image);
+  background-size: fit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: darken;
+}
+
+.about-me-canvas {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.user-info {
+  flex: 2;
+  /* border: 1px solid #000; */
+  padding: 50px;
+}
+
+.user-img {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-img > img {
+  width: 430px;
+  border-radius: 0px 100px 100px 100px;
+}
+
+.fa-icon {
+  display: inline;
+  color: var(--orange-color);
+  font-size: 26px;
+}
+
+.user-info > p:nth-child(1) {
+  font-size: 33px;
+  font-weight: 700;
+  color: var(--orange-color);
+}
+
+.user-info > p:nth-child(2) {
+  font-size: 44px;
+  font-weight: bolder;
+  color: var(--blue2-color);
+}
+
+.user-info > p:nth-child(3) {
+  font-size: 16px;
+  color: var(--font-color);
+  margin-bottom: 10px;
+  /* border: 1px solid #000; */
+  margin-bottom: 2rem;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td {
+  text-align: left;
+  padding: 10px 4px;
+}
+
+th:nth-child(1),
+td:nth-child(1) {
+  color: var(--orange-color);
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+  font-weight: bolder;
+}

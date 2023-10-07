@@ -1,0 +1,27 @@
+.footer-canvas {
+  background-color: var(--orange-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px 10px;
+}
+
+.icon img {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-bottom: 0.313rem;
+}
+
+.github,
+.linkedln,
+.mail,
+.discord,
+.Phone {
+  display: flex;
+  font-size: 0.75rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
