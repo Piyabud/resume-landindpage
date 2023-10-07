@@ -24,7 +24,7 @@ const url = [
   {
     id: 4,
     title: "Resume Landing Page",
-    url: "https://resume-landing-page-6jdrpa0wj-piyabud.vercel.app/",
+    url: "https://resume-landindpage.vercel.app/",
     img: "/img/landing.png",
   },
 ];
