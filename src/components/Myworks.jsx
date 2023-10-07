@@ -6,26 +6,26 @@ const url = [
     id: 1,
     title: "CourseFlow",
     url: "https://courseflow-bc8ion4is-piyabud.vercel.app/",
-    img: "../../public/img/courseflow.png",
+    img: "/img/courseflow.png",
   },
 
   {
     id: 2,
     title: "To Do List",
     url: "https://to-do-app-list-beryl.vercel.app/",
-    img: "../../public/img/todo.png",
+    img: "/img/todo.png",
   },
   {
     id: 3,
     title: "Food delivery",
     url: "https://food-delivery-app-sage.vercel.app/",
-    img: "../../public/img/pizza.png",
+    img: "/img/pizza.png",
   },
   {
     id: 4,
     title: "Resume Landing Page",
     url: "https://resume-landing-page-6jdrpa0wj-piyabud.vercel.app/",
-    img: "../../public/img/landing.png",
+    img: "/img/landing.png",
   },
 ];
 

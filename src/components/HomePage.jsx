@@ -22,7 +22,7 @@ function Homepage() {
           </div>
           <div className="display-profile flex justify-center object-contain ">
             <img
-              src="../../public/img/profileDisplay.png"
+              src="/img/profileDisplay.png"
               alt=""
               className="object-contain h-[500px] rounded-full  p-4"
             />

@@ -7,7 +7,7 @@ function TopNav() {
     <div className="h-24 flex justify-between items-center px-4 py-2 ">
       {/* LOGO */}
       <div className="">
-        <img src="../../public/img/logo.png" alt="logo" className=" h-[50px]" />
+        <img src="/img/logo.png" alt="logo" className=" h-[50px]" />
       </div>
 
       {/* RIGHT Nav */}

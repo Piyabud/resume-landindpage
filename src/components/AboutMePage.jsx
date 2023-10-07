@@ -18,7 +18,7 @@ function AboutMePage() {
       <div className="about-me-canvas ">
         <div className="user-img hidden">
           <img
-            src="../../public/img/profileaboutme.svg"
+            src="/img/profileaboutme.svg"
             alt=""
             loading="lazy"
           />
