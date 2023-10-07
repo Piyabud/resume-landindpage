@@ -25,7 +25,7 @@ function BergerMenu() {
     <div>
       <img
         src={
-          openMenu ? "../public/img/close.svg" : "../public/img/burger-menu.svg"
+          openMenu ? "/img/close.svg" : "/img/burger-menu.svg"
         }
         alt=""
         width={20}
