@@ -1,22 +1,37 @@
 import React, { useState } from "react";
 import BergerMenu from "./BergerMenu";
-// import "./stylePage/style-topNav.css";
+import "./style-topNav.css";
 
 function TopNav() {
   return (
-    <div className="h-24 flex justify-between items-center px-4 py-2 ">
-      {/* LOGO */}
-      <div className="">
-        <img src="/img/logo.png" alt="logo" className=" h-[50px]" />
-      </div>
+    <div
+      className="topnav-con"
+    >
+      <div className="canvas-topnav">
+        {/* LOGO */}
+        <div className="logo-box">
+          <img
+            src="/img/logo.png"
+            alt="logo"
+            className="h-[70px] md:h-[80px]"
+          />
+        </div>
 
-      {/* RIGHT Nav */}
-      <div className="md:hidden">
-        {/* BERGER */}
-        <BergerMenu />
+        {/* RIGHT Nav */}
+        <div className="md:hidden">
+          {/* BERGER */}
+          <BergerMenu />
+        </div>
+        {/* BTN GRP */}
+        <div className="btn-box hidden md:block ">
+          <a href="">Home</a>
+          <a href="#about-me">About</a>
+          <a href="#experiences-id">Experiences</a>
+          <a href="#footer-id" className="contact-me ">
+            Contact Me
+          </a>
+        </div>
       </div>
-      {/* BTN GRP */}
-      <div className="hidden">sss</div>
     </div>
   );
 }
