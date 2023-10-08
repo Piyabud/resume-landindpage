@@ -3,10 +3,10 @@ import React, { useState } from "react";
 
 const links = [
   { id: 1, title: "Home", url: "/" },
-  { id: 2, title: "About", url: "/" },
-  { id: 3, title: "Educations", url: "/" },
-  { id: 4, title: "Experiences", url: "/" },
-  // { id: 5, title: "Download Resume", url: "/" },
+  { id: 2, title: "About", url: "#about-me" },
+  { id: 3, title: "Educations", url: "#education-id" },
+  { id: 4, title: "Experiences", url: "#experiences-id" },
+  { id: 5, title: "Portfolio", url: "#port" },
 ];
 
 function downloadFileAtURL(url) {
@@ -24,9 +24,7 @@ function BergerMenu() {
   return (
     <div>
       <img
-        src={
-          openMenu ? "/img/close.svg" : "/img/burger-menu.svg"
-        }
+        src={openMenu ? "/img/close.svg" : "/img/burger-menu.svg"}
         alt=""
         width={20}
         height={20}
