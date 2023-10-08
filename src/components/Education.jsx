@@ -4,7 +4,9 @@ function Education() {
   return (
     <div>
       <li>
-        <div className="company">Chiang Mai University</div>
+        <div id="education-id" className="company">
+          Chiang Mai University
+        </div>
         <div className="position">
           Bachelor of Science – Animation, College of Arts, Media and Technology
         </div>

@@ -16,7 +16,7 @@ function AboutMePage() {
   return (
     <div id="about-me" className="about-me-page ">
       <div className="about-me-canvas ">
-        <div className="user-img hidden">
+        <div className="user-img hidden lg:block">
           <img
             src="/img/profileaboutme.svg"
             alt=""

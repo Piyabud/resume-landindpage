@@ -55,7 +55,7 @@ function Experiences() {
           <h1 className="mt-10">Experiences</h1>
         </div>
         <div className="experiences--info">
-          <div className="jobs-detail">
+          <div id="education-id" className="jobs-detail">
             <h1>Education</h1>
             <ul className="">
               {EduList.map((item) => (

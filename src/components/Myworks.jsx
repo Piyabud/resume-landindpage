@@ -8,19 +8,19 @@ const url = [
     url: "https://courseflow-bc8ion4is-piyabud.vercel.app/",
     img: "/img/courseflow.png",
   },
-
   {
     id: 2,
-    title: "To Do List",
-    url: "https://to-do-app-list-beryl.vercel.app/",
-    img: "/img/todo.png",
-  },
-  {
-    id: 3,
     title: "Food delivery",
     url: "https://food-delivery-app-sage.vercel.app/",
     img: "/img/pizza.png",
   },
+  {
+    id: 3,
+    title: "To Do List",
+    url: "https://to-do-app-list-beryl.vercel.app/",
+    img: "/img/todo.png",
+  },
+
   {
     id: 4,
     title: "Resume Landing Page",
@@ -31,11 +31,11 @@ const url = [
 
 function Myworks() {
   return (
-    <div>
+    <div id="port">
       <div className="experiences--info">
-        <div className="jobs-detail">
+        <div className="jobs-detail md:flex md:justify-center md:flex-col md:items-center">
           <h1>My Portfolio</h1>
-          <ul className="">
+          <ul className=" md:w-[600px]">
             {url.map((item) => (
               <div className="a shadow-lg" key={item.id}>
                 <a className="" href={item.url} target="_blank">
