@@ -48,7 +48,10 @@ const EduList = [
 
 function Experiences() {
   return (
-    <div id="experiences-id" className="experiences-page">
+    <div
+      id="experiences-id"
+      className="experiences-page lg:px-[60px] lg:py-[20px]"
+    >
       <div className="experiences-canvas">
         <div className="experiences--header flex justify-center">
           <h3></h3>

@@ -14,14 +14,10 @@ import {
 
 function AboutMePage() {
   return (
-    <div id="about-me" className="about-me-page ">
+    <div id="about-me" className="about-me-page p-[80px]">
       <div className="about-me-canvas ">
         <div className="user-img hidden lg:block">
-          <img
-            src="/img/profileaboutme.svg"
-            alt=""
-            loading="lazy"
-          />
+          <img src="/img/profileaboutme.svg" alt="" loading="lazy" />
         </div>
         <div className="user-info">
           <p className="mb-4">My Intro</p>
