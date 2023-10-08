@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import "./style-homePage.css";
+
+function downloadFileAtURL(url) {
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.target = "_blank";
+  anchor.download = "piyabud_fullstack_resume.pdf";
+  anchor.click();
+}
 
 function Homepage() {
+  const [openMenu, setOpenMenu] = useState(false);
+  const PDF_FILE_URL =
+    "https://drive.google.com/file/d/1zzCB9Z9epUARMLin_QuYWYbpMoZp4U2L/view?usp=sharing";
   return (
     <div>
       <div className="bg-[--gray-color]  flex justify-center">
-        <div className="profile h-full flex flex-col md:flex-row ">
-          <div className="info p-8">
+        <div className="profile ">
+          <div className="info">
             <div className="greeting text-[30px] font-[500] text-[--orange-color] mb-4">
               Hi, I am
             </div>
@@ -19,12 +31,20 @@ function Homepage() {
               based in Bangkok, thailand I’am coding with a clean and beautiful
               problem solving in mind.
             </div>
+            <button
+              className="hidden md:block "
+              onClick={() => {
+                downloadFileAtURL(PDF_FILE_URL);
+              }}
+            >
+              Download CV
+            </button>
           </div>
           <div className="display-profile flex justify-center object-contain ">
             <img
               src="/img/profileDisplay.png"
               alt=""
-              className="object-contain h-[500px] rounded-full  p-4"
+              className="object-contain"
             />
           </div>
         </div>
