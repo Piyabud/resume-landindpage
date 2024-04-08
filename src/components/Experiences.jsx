@@ -5,6 +5,12 @@ import { faCalendarDays } from "@fortawesome/free-solid-svg-icons";
 
 const jobExpList = [
   {
+    id: 5,
+    company: "Creden Asia Company Limited",
+    position: "Software Developer (Full Stack)",
+    years: "2023 - 2024",
+  },
+  {
     id: 1,
     company: "Apex One Agency",
     position: "Game Animator",

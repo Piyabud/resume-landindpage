@@ -23,9 +23,8 @@ function AboutMePage() {
           <p className="mb-4">My Intro</p>
           <p className="uppercase mb-4">About Me</p>
           <p className=" indent-9">
-            My name is Piyabud Tapang (M), I have 5 years of experience as a 3D
-            animator, and I am currently transitioning to software development.
-            I am proficient in HTML, CSS, JavaScript, Node.js, Express.js,
+            My name is Piyabud Tapang (M), I have 5 month of experience as software develop (Full Stack) at Creden Asia Company Limited.
+            I am proficient in HTML, CSS, JavaScript, Lua, Node.js, Express.js,
             MongoDB, PostgreSQL, Supabase, Git, and Cypress for testing
             programs. With a proven ability to perform under pressure, I excel
             at delivering results within tight deadlines.
