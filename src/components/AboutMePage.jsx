@@ -23,7 +23,7 @@ function AboutMePage() {
           <p className="mb-4">My Intro</p>
           <p className="uppercase mb-4">About Me</p>
           <p className=" indent-9">
-            My name is Piyabud Tapang (M), I have 5 month of experience as software develop (Full Stack) at Creden Asia Company Limited.
+            My name is Piyabud Tapang (M), I have 6 months of experience as software develop (Full Stack) at Creden Asia Company Limited.
             I am proficient in HTML, CSS, JavaScript, Lua, Node.js, Express.js,
             MongoDB, PostgreSQL, Supabase, Git, and Cypress for testing
             programs. With a proven ability to perform under pressure, I excel
