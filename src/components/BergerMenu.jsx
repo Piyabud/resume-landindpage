@@ -20,7 +20,7 @@ function downloadFileAtURL(url) {
 function BergerMenu() {
   const [openMenu, setOpenMenu] = useState(false);
   const PDF_FILE_URL =
-    "https://drive.google.com/file/d/1oWwyXYWBvFGF1CTtW1F8g60qx8hcAIWO/view?usp=sharing";
+    "https://drive.google.com/file/d/1a-UYK-Q6EnQjowGlUL-hfHjzLgpJlVKb/view?usp=sharing";
   return (
     <div>
       <img
