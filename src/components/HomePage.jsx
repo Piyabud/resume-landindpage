@@ -12,7 +12,7 @@ function downloadFileAtURL(url) {
 function Homepage() {
   const [openMenu, setOpenMenu] = useState(false);
   const PDF_FILE_URL =
-    "https://drive.google.com/file/d/1a-UYK-Q6EnQjowGlUL-hfHjzLgpJlVKb/view?usp=sharing";
+    "https://drive.google.com/file/d/1tn1gc8w5AZJLrEyyBTN-HDYGZiHJkV-Y/view?usp=drive_link";
   return (
     <div>
       <div className="bg-[--gray-color]  flex justify-center">
